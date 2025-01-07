@@ -151,7 +151,7 @@
 								"value": "@activity('LookupCurrentWaterMark').output.firstRow.NewWatermarkValue",
 								"type": "Expression"
 							},
-							"type": "datetime"
+							"type": "Datetime"
 						}
 					}
 				},
