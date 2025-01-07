@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "deltaloadfactoryinstance"
+		},
+		"watermarkdbLinkedService_password": {
+			"value": ""
+		},
+		"sourcedblinkedservice_password": {
+			"value": ""
+		},
+		"destinationstorage_connectionString": {
+			"value": ""
+		},
+		"watermarkdbLinkedService_properties_typeProperties_server": {
+			"value": "anubhatayal.database.windows.net"
+		},
+		"watermarkdbLinkedService_properties_typeProperties_database": {
+			"value": "AzureLearning1"
+		},
+		"watermarkdbLinkedService_properties_typeProperties_userName": {
+			"value": "SQLSERVER_AT"
+		},
+		"sourcedblinkedservice_properties_typeProperties_server": {
+			"value": "anubhatayal.database.windows.net"
+		},
+		"sourcedblinkedservice_properties_typeProperties_database": {
+			"value": "AzureLearning1"
+		},
+		"sourcedblinkedservice_properties_typeProperties_userName": {
+			"value": "SQLSERVER_AT"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
