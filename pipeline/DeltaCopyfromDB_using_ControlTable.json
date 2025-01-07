@@ -184,7 +184,7 @@
 			},
 			"Control_Table_Column_Name": {
 				"type": "String",
-				"defaultValue": "watermarktable"
+				"defaultValue": "WatermarkValue"
 			}
 		},
 		"annotations": []
